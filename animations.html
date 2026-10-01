@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>mariacamarca</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			body {
+				padding-bottom: 40px; /* Add white space at the bottom of the page */
+				margin: 0; /* Remove default margin */
+				display: flex;
+				flex-direction: column;
+				align-items: center; /* Center the content */
+			}
+			.video-row {
+				display: flex;
+				justify-content: center; /* Center the videos in the row */
+				margin-bottom: 40px; /* Space between rows */
+				
+			}
+			.video-container {
+				margin: 20px; /* Space between videos */
+			}
+			video {
+            height: 400px; /* Set a fixed height for all videos */
+            width: auto; /* Maintain aspect ratio */
+			.caption {
+            margin-top: 8px; /* Space between video and caption */
+        }
+        }
+		</style>
+	</head>
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<a href="research.html">Research</a>
+		<a href="about.html">About</a>
+		<a href="cv.html">CV</a>
+		<a href="pubs.html">Publications</a>
+		<a href="animations.html">Animations</a>
+	</div>
+	<body>
+		<div id="wrapper" class="divided">
+			<section class="wrapper style1 align-left">
+				<div class="inner">
+					<h2>Quality 3D Animations of Icy Satellites</h2>
+					<p>
+						Planetary astronomy can always benefit from excellent graphics and animations. I have collaborated with Thomas Halpin at AMGI Studios to produce some 
+						nice animations of icy satellites for use in scientific talks and outreach presentations. Jupiter's moon Callisto is arguably the Galilean satellite most in need of better marketing,
+						so thus far we have focused on that moon. We also created an animation of the aurora on Ganymede base on results from our group's work. All animations are
+						rendered in Unreal Engine using spacecraft image mosaics from the USGS Astrogeology Science Center. 
+						<b>Important:</b> Creative license has been taken in these animations. 
+						For example, texture was added to Callisto using albedo measurements, not actual topographic data.
+					</p>
+					<p> Check back in the future for more animations!</p>
+				</div>
+			</section>
+		</div>
+		
+		<div class="video-row">
+			<div class="video-container">
+				<video width="300" controls>
+					<source src="animations/callisto.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<div class="caption">Rotating Callisto with dark background. <br> Credit: T. Halpin/M. Camarca/NASA/USGS 
+					<a class="download-button" href="animations/callisto.mp4" download><u>↓</u> </a>
+			 	</div>
+			</div>
+			<div class="video-container">
+				<video width="300" controls>
+					<source src="animations/Ganymede_SEQ_03.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<div class="caption">Full sequence of green/red aurora on Ganymede. <br> Credit: T. Halpin/M. Camarca/Z. Milby/NASA/USGS  
+					<a class="download-button" href="animations/Ganymede_SEQ_03.mp4" download><u>↓</u> </a>
+				</div>
+			</div>
+		</div>
+		<div class="video-row">
+			<div class="video-container">
+				<video  controls>
+					<source src="animations/Callisto_Rotation_Full_1024.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<div class="caption">Front-lit rotating Callisto. <br> Credit: T. Halpin/M. Camarca/NASA/USGS
+					<a class="download-button" href="animations/Callisto_Rotation_Full_1024.mp4" download><u>↓</u> </a>
+				</div>
+			</div>
+			<div class="video-container">
+				<video  controls>
+					<source src="animations/gany-short-aurora.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<div class="caption">Short sequence of aurora changing on Ganymede. <br> Credit: T. Halpin/M. Camarca/Z. Milby/NASA/USGS  
+					<a class="download-button" href="animations/gany-short-aurora.mp4" download><u>↓</u> </a>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+		
+</html>
